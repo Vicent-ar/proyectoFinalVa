@@ -1,0 +1,1447 @@
+body { 
+    background:black; 
+    text-align: center; 
+    margin-left: 10px;
+    width: 1355px}
+
+*{margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 10}
+
+main { width: 100%
+    ; height: auto }
+
+#banner{width: 235px;
+    height: 135px;
+    float: left; 
+    position: relative;
+    border: 3px solid #5A3EA9;
+    margin: auto;
+    background-color: #09F9F5;
+    background-size: 100% 100%; 
+    animation-name: mybanner; 
+    animation-duration: 10s; 
+    animation-iteration-count:  infinite;}
+
+@keyframes mybanner {
+    0%, 30%{
+        background-image: url(images/decatlon.jpg);    
+    }
+    31%, 34%{
+        opacity: 0,1;
+    }
+    35%, 65%{
+        background-image: url(images/bici.png);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0,1;
+    }
+    70%, 100%{
+        background-image: url(images/Logo-Mtb-Festival.png);
+        opacity: 1;
+    }
+        
+}
+
+
+#banner2{width: 235px; 
+    height: 135px;
+    float: left; 
+    position: relative;
+    border: 3px solid #5A3EA9; 
+    background-color: red; 
+    background-size: 100% 100%;
+    animation-name: mybanner2; 
+    animation-duration: 10s; 
+    animation-iteration-count:  infinite;
+
+}
+@keyframes mybanner2 {
+    0%, 30%{
+        background-image: url(images/oferta-teruel-45.jpg);        
+    }
+    31%, 34%{
+        opacity: 0,1;
+    }
+    35%, 65%{
+        background-image: url(images/montanejos.jpg);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0,1;
+    }
+    70%, 100%{
+        background-image: url(images/rascanya.jpg);
+        opacity: 1;
+    }
+        
+}
+
+header{
+    background: #69712D; 
+    background-image:url(images/arena.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 815px;
+    background-position:center center;
+    border-color: aqua; 
+    border-style: groove; 
+    border-width: 15px; 
+    height: 110px; 
+    font-size: 25px; 
+    text-align: center; 
+    float: left; 
+    position: relative;
+}
+
+header > h1 { 
+    text-align: center; 
+    font-size: 45px; 
+    margin-top: -5px; 
+    padding-bottom: 10px; 
+    margin-bottom: -20px 
+}
+
+h1 {
+    font-family: 'Piedra', cursive; 
+    color: #FF0000; 
+    text-shadow: 0.05em 0.05em #353512; 
+    margin-top: -1px;
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    color:#10A4BB ;
+    text-shadow: 0.05em 0.05em red ;
+    border: solid;
+    border: 10px;
+    border-style: double; 
+    margin-left: 250px; 
+    margin-right: 250px; 
+    text-align:  center; 
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive; 
+    text-align: center; 
+    font-size: 35px; 
+    color: #FF0000; 
+    text-shadow: 0.05em 0.05em #353512; 
+    text-decoration: underline; 
+    text-decoration-color: blue 
+}
+
+h4{
+    font-size: 25px; 
+    text-align: end; 
+    font-family:Consolas, Arial; 
+    color:crimson;
+}
+
+p {
+    font-size: 25px; 
+    color:blueviolet;
+    text-shadow: 0.05em 0.05em black;
+}
+
+#botonAnyadir{
+    font-size: 25px
+}
+
+.frase1{
+    margin-left: 150px
+}
+
+.frase2{
+    margin-left: 225px
+}
+
+.plumbea img {
+    width:125px; 
+    height: 115px; 
+    float: right; 
+    margin-top: 55px; 
+    margin-right:180px;
+}
+
+#entradas{
+    width: auto;
+    height: auto; 
+    border: 1px solid black; 
+    font-family: 'Caveat', cursive; 
+    padding: 10px; 
+    background-image: url(images/arenaplaya.jpg);
+}
+
+#entradas p{
+    color:black
+}
+
+#miformulario textarea{
+    background-color: #EFECD9    
+}
+
+.video iframe{
+    text-align: center;
+    width: 760px; 
+    height: 515px; 
+    border: 5px solid; 
+    color: chartreuse; 
+    margin-left: 150px
+}
+
+form {
+    background-color:aqua; 
+    border-color:blueviolet; 
+    border-style: solid; 
+    border-width: 6px; 
+    padding: 10px; 
+    font-family:sans-serif}
+
+.imgseccder img {
+    margin: 10px 10px 10px 10px;
+    float: right; 
+    width: 300px; 
+    height: 250px; 
+    border: 3px solid; 
+    color: red
+}
+
+.imgseccizd img {
+    margin: 10px 10px 10px 10px; 
+    float: left; 
+    width: 300px; 
+    height: 250px; 
+    border: 3px solid; 
+    color: black
+}
+
+.cabeza1 img{
+    margin: 10px 10px 10px 10px;
+    float: right; 
+    width: 300px; 
+    height: 90px; 
+    border: 3px solid; 
+    color: red
+}
+
+.lugares1izda img{
+    margin: 10px 10px 10px 10px; 
+    float: left; 
+    width: 250px; 
+    height: 350px; 
+    border: 3px solid; 
+    color: black
+}
+
+.foto1 img{
+    margin-right: 10px
+}
+
+.foto3 img {
+    margin: 10px 10px 10px 10px;
+    float: right; 
+    width: 250px; 
+    height: 350px; 
+    border: 3px solid; 
+    color: red
+}
+
+.foto4 img{
+    margin: 10px 10px 10px 10px; 
+    float: left; 
+    width: 320px; 
+    height: 220px; 
+    border: 3px solid; 
+    color: black
+}
+
+.foto5 img {
+    margin: 10px 10px 10px 10px;
+    float: right; 
+    width: 250px; 
+    height: 150px; 
+    border: 3px solid; 
+    color: red
+}
+
+.foto6 img {
+    margin: 10px 10px 10px 10px; 
+    float: right; 
+    width: 320px; 
+    height: 220px; 
+    border: 3px solid; 
+    color: red
+}
+
+.foto7 img {
+    margin: 10px 10px 10px 10px;
+    float: right; 
+    width: 250px; 
+    height: 350px; 
+    border: 3px solid; 
+    color: red
+}
+
+.foto8 img {
+    margin: 10px 10px 10px 10px;
+    float: left; 
+    width: 250px; 
+    height: 350px; 
+    border: 3px solid; 
+    color: black
+}
+
+.foto9 img{
+    margin: 10px 10px 10px 10px; 
+    float: left; 
+    width: 220px; 
+    height: 200px; 
+    border: 3px solid; 
+    color: black
+}
+
+.foto10 img{
+    margin: 10px 10px 10px 10px; 
+    float: left; 
+    width: 280px; 
+    height: 200px; 
+    border: 3px solid; 
+    color: black
+}
+
+#what1{
+    width: 20px; 
+    height: 20px; 
+    float:right; 
+    margin-right: 865px; 
+    margin-top: -25px;
+}
+
+#what{
+    width: 20px; 
+    height: 20px; 
+    float:right; 
+    margin-right: 545px;  
+    margin-top: -20px
+}
+
+#what2{
+    width: 20px; 
+    height: 20px; 
+    float:right; 
+    margin-right: 560px;  
+    margin-top: -25px
+}
+
+#menu{
+    margin-left: 275px;
+    margin-top: 5px;
+    width:auto; 
+    height: 20px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    
+}   
+
+#cambiocolor{
+    width: 160px; 
+    height: 35px; 
+    background-color: #F6DB75; 
+    font-weight: bold
+}
+
+#cambiocolor:hover{
+    background-color: #CDF504
+}
+
+#reset{
+    width: 160px; 
+    height: 35px; 
+    background-color: #F6DB75; 
+    font-weight: bold
+}
+
+#reset:hover {
+    background-color: #CDF504
+}
+
+#submit{
+    width: 160px; 
+    height: 35px; 
+    background-color: #F6DB75;
+    font-weight: bold
+}
+
+#submit:hover {
+    background-color: #CDF504
+}
+
+#botonAnyadir{
+    width: 160px; 
+    height: 35px; 
+    background-color: #F6DB75; 
+    font-weight: bold
+}
+
+#botonAnyadir:hover {
+    background-color: #CDF504
+}
+
+ul, ol {
+    list-style:none;
+    position: static;
+    }
+
+.nav li ul {
+    display:none;
+    position:static;
+    min-width:140px;                   
+}
+
+.nav li{
+    float: left;
+    display: inline;
+    text-align: center;
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -60px;
+    width: 200px;
+    position: static;   
+}
+
+#menu > ul li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    background: #FF7361;    
+}
+
+.nav li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 3px solid #ccc;
+    text-decoration: none;
+    display:flex;  
+}
+
+nav li:hover > ul {
+    display:grid;
+    margin-left: 20px; 
+    float: left;
+    position: absolute;
+    z-index: 5;    
+}
+						
+.nav li a:hover {
+    background-color: #333333;
+    color: #FBDD04;  
+}
+
+section {
+    background-image:url(images/arena.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    text-align: justify;
+    padding: 15px; 
+    height:655px; 
+    width:1063px; 
+    border-style: groove; 
+    border-width: 10px; 
+    border-color: red; 
+    float: left; 
+    position: relative; 
+    overflow-x: hidden; 
+    z-index:-1
+}
+
+section ul {
+    list-style-type:lower-latin;
+    text-align: center;
+}
+
+section li{
+    display: inline;
+    text-align: center;
+    margin: 400px 0px -400px 40px;
+}
+
+section li a {
+    padding: 10px 28px 10px 28px;
+    color: #666;
+    background-color: #7EE8D4;
+    border: 3px solid red;
+    text-decoration: none;
+    float: left;
+    margin-left: 50px;
+}
+
+section li a:hover{
+    background-color: #162595;
+    color: #FAF705; float: left  
+}
+ 
+#roller ul {
+    list-style-type:lower-latin;
+    text-align: center;
+}
+
+#roller li{
+    display: inline;
+    text-align: center;
+    margin: 400px 0px -400px 40px;
+}
+
+#roller li a {
+    padding: 10px 28px 10px 28px;
+    color: #666;
+    background-color: #7EE8D4;
+    border: 3px solid red;
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+}
+
+#roller li a:hover{
+    background-color: #162595;
+    color: #FAF705; float: left  
+}
+
+#roller1 ul {
+    list-style-type:lower-latin;
+    text-align: center;
+}
+
+#roller1 li{
+    display: inline;
+    text-align: center;
+    margin: 400px 0px -400px 40px;
+}
+
+#roller1 li a {
+    padding: 10px 28px 10px 28px;
+    color: #666;
+    background-color: #7EE8D4;
+    border: 3px solid red;
+    text-decoration: none;
+    float: left;
+    margin-left: 12px;
+}
+
+#roller1 li a:hover{
+    background-color: #162595;
+    color: #FAF705; float: left  
+}
+
+aside {
+    background-image:url(images/estuco.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width:15%; 
+    height: 692px; 
+    float: left; clear: left; 
+    position: relative; 
+    border: 5px; 
+    border-style: groove;
+    z-index: -1
+}
+
+aside img {border: solid 3px; 
+    color: black
+}
+
+aside ul {
+    list-style-type: none;    
+    text-align: center;
+}
+
+aside li{
+    display:block;
+    width: 150px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.foto img {
+    width: 195px; 
+    height: 120px;
+}
+
+.foto1 img { 
+    width: 155px; 
+    margin: 3px 10px 10px 0px; 
+    float: right;
+}
+
+aside li a {
+    padding: 10px 28px 10px 28px;
+    color: #666;
+    background-color: #7EE8D4;
+    border: 3px solid red;
+    border-radius: 25px;
+    text-decoration: none;
+    float: left
+}
+
+aside li a:hover{
+    background-color: #7E1A78;
+    color: #ffffff; float: left  
+}
+
+.clockdate-wrapper {
+    background-color: #333;
+    padding:15px;
+    max-width:200px;
+    width:65%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    margin-left: 30px;
+}
+#clock{
+    background-color:#333;
+    font-family: consolas;
+    font-size:30px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+#clock span {
+    color:#888;
+    text-shadow:0px 0px 1px #333;
+    font-size:25px;
+    position:relative;
+    top:5px;
+    left:-5px;
+}
+#date {
+    letter-spacing:10px;
+    font-size:14px;
+    font-family:consolas,sans-serif;
+    color:#fff;
+    margin-left: 5px;
+}
+.topnav {
+    width: 1325px;
+    background-color: #333;
+    overflow: hidden;
+    border: 1px solid white;
+    font-family: 'Righteous', cursive;
+    float: left;
+    position: relative
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.pieseccion {
+    background: red; 
+    position: relative; 
+    width: 70%;     
+    height: 250; 
+    clear: left; 
+    float: left; 
+    text-align: end; 
+}
+
+.carrusel{ 
+    background:#B7F905;
+    border:5px; 
+    border-style: dashed;
+    overflow: hidden; 
+    float: left;
+    width: 1315px
+}
+
+.carrusel figure div {
+    float: left; 
+    width: 5%; 
+    margin: 5px
+}
+
+.carrusel figure img {
+    float: left; 
+    width: 100%
+} 
+
+.carrusel figure{
+    position: relative;
+    width: 300%;
+    margin: 0px;
+    left: 0;
+    animation: 60s vicent infinite;
+}
+
+@keyframes vicent{
+    0%{left: 0%;
+        
+    }
+    6%{left: -5%;
+        
+    }
+    12%{left: -15%;
+        
+    }
+    
+    18%{ left -30%;
+        
+    } 
+    22%{ left -35%;
+                 
+    }
+    28% {left: -40%;
+    }
+        
+    .foto {border: 5px; border-color: darkorange; border-style: groove}
+}
+
+.grande{
+    position: relative ;
+    width: 120%;
+    height: auto;
+    margin: 0px;
+    left: 500;
+    animation: vicent2 10s infinite;
+    margin-left: 0px;
+    z-index: -1;
+}
+
+.pelota{
+    width: 120px;
+    height: 50px;
+}
+@keyframes vicent2{
+
+    0%{left: 0%;}
+    1%{left: 1%;}
+    2%{left: 2%;}
+    3%{left: 3%;}
+    4%{left: 4%;}
+    5%{left: 5%;}
+    6%{left: 6%;}
+    7%{left: 7%;}
+    8%{left: 8%;}
+    9%{left: 9%;}
+    10%{left: 10%;}
+    11%{left: 11%;}
+    12%{left: 12%;}
+    13%{left: 13%;}
+    14%{left: 14%;}
+    15%{left: 15%;}
+    16%{left: 16%;}
+    17%{left: 17%;}
+    18%{left: 18%;}
+    19%{left: 19%;}
+    21%{left: 21%;}
+    22%{left: 22%;}
+    23%{left: 23%;}
+    24%{left: 24%;}
+    25%{left: 25%;}
+    26%{left: 26%;}
+    27%{left: 27%;}
+    28%{left: 28%;}
+    29%{left: 29%;}
+    31%{left: 31%;}
+    32%{left: 32%;}
+    33%{left: 33%;}
+    34%{left: 34%;}
+    35%{left: 35%;}
+    36%{left: 36%;}
+    37%{left: 37%;}
+    38%{left: 38%;}
+    39%{left: 39%;}
+    40%{left: 40%;}
+    41%{left: 41%;}
+    42%{left: 42%;}
+    43%{left: 43%;}
+    44%{left: 44%;}
+    45%{left: 45%;}
+    46%{left: 46%;}
+    47%{left: 47%;}
+    48%{left: 48%;}
+    49%{left: 49%;}
+    50%{left: 50%;}
+    51%{left: 51%;}
+    52%{left: 52%;}
+    53%{left: 53%;}
+    54%{left: 54%;}
+    55%{left: 55%;}
+    56%{left: 56%;}
+    57%{left: 57%;}
+    58%{left: 58%;}
+    59%{left: 59%;}
+    60%{left: 60%;}
+    61%{left: 61%;}
+    62%{left: 62%;}
+    63%{left: 63%;}
+    64%{left: 64%;}
+    65%{left: 65%;}
+    66%{left: 66%;}
+    67%{left: 67%;}
+    68%{left: 68%;}
+    69%{left: 69%;}
+    70%{left: 70%;}       
+    71%{left: 71%;}       
+    72%{left: 72%;}       
+    73%{left: 73%;}       
+    74%{left: 74%;}       
+    75%{left: 75%;}       
+    76%{left: 76%;}
+    77%{left: 77%;}
+    78%{left: 78%;}
+    79%{left: 79%;}
+    80%{left: 80%;}
+    81%{left: 81%;}
+    82%{left: 82%;}
+    83%{left: 83%;}
+    84%{left: 84%;}
+    85%{left: 85%;}
+    86%{left: 86%;}
+    87%{left: 87%;}
+    88%{left: 88%;}
+    89%{left: 89%;}
+    90%{left: 90%;}
+    91%{left: 91%;}
+    92%{left: 92%;}
+    93%{left: 93%;}
+    94%{left: 94%;}
+    95%{left: 95%;}
+    96%{left: 96%;}
+    97%{left: 97%;}
+    98%{left: 98%;}
+    99%{left: 99%;}
+    100%{left: 100%;}
+}
+
+body > footer{
+    background: black;
+    width: 1319px;
+    height: 150px;
+    color: white; text-shadow: 0.05em 0.05em #353512;   
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-style:groove;
+    border-color: black 10px;
+    position: relative;
+    float: left  
+}   
+
+footer li a{
+    display:block;
+    float: left;
+}
+
+.facebook img{
+    margin: 10px 10px 10px 10px; 
+    float: left; 
+    width: 60px; 
+    height: 60px;
+}
+
+.instagram img{
+    margin: 10px 10px 10px 10px; 
+    float: right; 
+    width: 60px; 
+    height: 60px;
+}
+ 
+.facebook img {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.facebook img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.instagram img {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.instagram img:hover {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+
+@media screen and (min-width:361px)and (max-width: 460px) {
+
+    header > h1{
+        font-size: 18px; padding: 8px;
+    }
+    #pluma{display: none}
+    section > h2 {
+        font-size: 15px; 
+        position:relative; 
+        text-align: center;
+        margin: -8px; 
+        margin-bottom: 30px; 
+        margin-right: 10px
+    }
+    footer{font-size: 12px}
+    section > h4{
+        font-size: 15px
+    }
+    p {
+        font-size: 15px;
+        color: black;
+    }      
+    body>footer{
+        max-width: 430px; 
+        height: 130px
+    }
+    section{
+        width: 390px; 
+    }
+    body{
+        max-width:460px;
+        overflow:visible
+    }
+    body > header{
+        width: 207px; 
+        height: 50px; 
+    }
+    img{
+        max-width: 130px; 
+        max-height:100px
+    }
+    .facebook img{
+        max-width: 25px; 
+        max-height:25px
+    }
+    .instagram img{
+        max-width: 25px; 
+        max-height:25px
+    }
+    .carrusel{
+        width: 430px
+    }
+    .carrusel .foto{
+        width: 80px; 
+        max-height: 60px
+    }
+    #menu{
+        display: none
+    }
+    .video iframe{
+        text-align: center;
+        width: 360px; 
+        height: 290px; 
+        border: 5px solid; 
+        color: chartreuse; 
+        margin-top: 75px; 
+        margin-left: 15px
+    } 
+    form{
+        font-size: 20px;
+    }
+    #nombre{
+        width: 230px;
+    }
+    #piso{
+        width: 35px
+    }
+    .area{
+        width: 320px
+    }
+    .nombrec{
+        width: 320px
+    } 
+    section >h3{
+        font-size:  30px
+    }
+    #roller{
+        display: none
+    }
+    #roller1{
+        display: none
+    }
+    #cont{
+        display: none
+    }
+    #primerapellido{
+        width: 250px
+    }
+    #segundoapellido{
+        width: 250px
+    }
+    #nombre{
+        width: 210px
+    }
+    #correo{
+        width: 210px
+    }
+    .frase1{
+        margin-left: -10px
+    }
+    .frase2{
+        margin-left: -10px
+    }
+    #textC{
+        width: 320px
+    }
+    #textN{
+        width: 320px
+    }
+    #banner{height: 75px; float: left}
+    #banner2{height: 75px; float: left;margin-top: 3px}
+    .topnav{width: 440px;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .loquesea {
+        display: none;
+    }
+}
+
+@media screen and (min-width:321px)and (max-width: 360px) {
+
+    header > h1{
+        font-size: 25px;
+    }
+    section > h2 {
+        font-size: 20px; 
+        position:relative; 
+        float: left; 
+        margin: -10px; 
+        margin-bottom: 20px
+    }
+    footer{font-size: 12px}
+    section > h4{font-size: 20px}
+    section >h3{font-size:  25px}
+    p {font-size: 15px;color: black;}      
+    #foot{width: 335px; height: 150px}
+    section{width: 290px; height: 450px}
+    body{max-width:360px}
+    body > header{max-width: 310px;height:50px }
+    img{max-width: 100px; max-height:70px}
+    .facebook img{max-width: 25px; max-height:25px}
+    .instagram img{max-width: 25px; max-height:25px}
+    header {width: 320px}
+    .carrusel .foto{width: 85px; max-height: 60px}
+    .carrusel{width: 330px}
+    #menu{display: none}
+    #banner{display: none}
+    #banner2{display: none}
+    #roller{display: none}
+    #roller1{display: none}
+    #cont{display: none}
+    #primerapellido{width: 210px}
+    #nombre{width: 240px}
+    #correo{width: 240px}
+    .frase1{margin-left: -10px}
+    .frase2{margin-left: -10px}
+    .plumbea {display: none}
+    #textC{width: 240px}
+    #textN{width: 240px}
+    .video iframe{
+        text-align: center;
+        width: 260px; 
+        height: 215px; 
+        border: 5px solid; 
+        color: chartreuse; 
+        margin-top: 75px; 
+        margin-left: 15px
+    } 
+    form{font-size: 10px;}
+    .label{padding: 10px}
+    .area{width: 240px}
+    .nombrec{width: 240px } 
+     #fichero{font-size: 10px}
+    #numero{width: 20px }
+     #piso{width: 20px }
+    #apto{width: 20px }
+    .topnav{width: 338px}
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+    float: right;
+    display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .loquesea {
+        display: none;
+    }    
+}
+
+@media screen and (min-width:241px)and (max-width: 320px) {
+
+    header > h1{
+        font-size: 25px;
+    }
+    section > h2 {
+        font-size: 20px; position:relative; float: left; margin: -10px; margin-bottom: 20px
+    }
+    section >h3{font-size:  20px}
+    section > h4{font-size: 12px}
+    p {
+        font-size: 15px;color: black;
+    }      
+    #foot{width: 305px; height: 110px}
+    footer{font-size: 10px}
+    section{width: 260px; height: 400px; margin-top: -30px}
+    body{max-width:320px;overflow:auto}
+    body > header{max-width: 310px; height: 55px}
+    img{max-width: 90px; max-height:70px}
+    .facebook img{max-width: 25px; max-height:25px}
+    .instagram img{max-width: 25px; max-height:25px}
+    header {width: 280px}
+    .carrusel .foto{width: 80px; max-height: 60px}
+    .carrusel{width: 300px}
+    #menu{display: none}
+    #banner{display: none}
+    #banner2{display: none}
+    #roller{display: none}
+    #roller1{display: none}
+    #cont{display: none}
+    #primerapellido{width: 210px}
+    #nombre{width: 210px}
+    #correo{width: 210px}
+    .frase1{margin-left: -10px}
+    .frase2{margin-left: -10px}
+    .plumbea {display: none}
+    #textC{width: 210px}
+     #textN{width: 210px}
+    .video iframe{text-align: center;
+        width: 220px; height: 175px; border: 5px solid; color: chartreuse; margin-top: 75px; margin-left: 15px
+    } 
+    .area{width: 210px}
+    .nombrec{width: 210px }
+     #fichero{font-size: 8px}
+    .topnav{width: 310px;}
+     .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {position: relative}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }    
+}
+
+@media (max-width: 320px) {
+
+    .loquesea {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 120px) and (max-width: 240px) {
+
+    header > h1{
+        font-size: 15px; padding: 10px;
+    }
+    section > h2 {
+        font-size: 20px; position:relative; float: left; margin: -10px; margin-bottom: 20px
+    }
+    section > h4{font-size: 10px}
+    p {
+        font-size: 15px;color: black;
+    }      
+    #foot{font-size: 7px;width: 215px; height: 80px}
+    section{width: 170px; height: auto}
+    body{max-width:240px;overflow:visible}
+    body > header{max-width: 210px;}
+    img{max-width: 40px; max-height:50px}
+    .facebook img{max-width: 15px; max-height:15px}
+    .instagram img{max-width: 15px; max-height:15px}
+    header {width: 190px; height: 50px}
+    #banner{display: none}
+    #banner2{display: none}
+    #menu{display: none}
+    #cont{display: none}
+    #correo{width: 145px}
+    #roller{display: none}
+    #roller1{display: none}
+    #textC{width: 145px}
+    #textN{width: 145px}
+    .frase1{margin-left: -10px}
+    .frase2{margin-left: -10px}
+    .carrusel{width: 210px}
+    .carrusel .foto{width: 60px; height: 60px}
+    .pelota{display: none}
+    .video iframe{text-align: center;
+        width: 155px; height: 145px; border: 5px solid; color: chartreuse; margin-top: 55px; margin-left: 5px
+    }
+    
+    .topnav{width: 220px}
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    form{width: 150px; font-size: 10px;}
+    .label{padding: 10px}
+    .area{width: 140px}
+    .nombrec{width: 140px }
+    #nombre{width: 140px }
+    #primerapellido{width: 140px }
+    #segundoapellido{width: 140px }
+    #numero{width: 100px }
+    #piso{width: 100px }
+    #apto{width: 100px }
+    #familia{width: 100px }
+    #fichero{font-size: 5px}
+    section >h3{font-size:  15px}
+}
+
+@media (max-width: 240px) {
+
+    .loquesea {
+    display: none;
+  }
+    
+}
+
+@media screen and (min-width:461px) and (max-width: 603px) {
+
+    header > h1{
+        font-size: 25px;padding: 5px
+    }
+    header {width: 274px; height: 65px; float: left}
+    #banner{height: 90px; width: 130px}
+    #banner2{height: 90px; width: 130px; float: left}
+    .loquesea{width: 80px}
+    #clockdate{margin-left: -15px; width: 110px}
+    #clock{
+        background-color:#333;
+        font-family: consolas;
+        font-size:15px;
+        text-shadow:0px 0px 1px #fff;
+        color:#fff; margin-left: -7px;
+       
+    }
+    #clock span {
+        color:#888;
+        text-shadow:0px 0px 1px #333;
+        font-size:15px;
+        
+        top:5px;
+        left:-5px;
+    }
+   
+    #date {
+        letter-spacing:5px;
+        font-size:7px;
+        font-family:consolas,sans-serif;
+        color:#fff;
+        margin-top:15px;
+        margin-left: 5px;
+    }
+    .loquesea{width: 125px}
+    .loquesea img{ width: 85px; margin-left: -20px}
+    .loquesea ul{ width: 50px; margin-top: 25px; margin-left: -20px; width: 60px}
+    .loquesea ul li{width: 80px}
+    aside li a {
+        color: #666;
+        font-size: 10px;
+        font-style: bold;
+        background-color: #7EE8D4;
+        border: 3px solid red;
+        border-radius: 25px;
+        text-decoration: none;
+        float: left
+    }
+    .carrusel{width: 565px; height: 90px}
+    body{max-width:600px;overflow:visible}
+    section{width: 390px;}
+    nav{display: none}
+    #roller{display: none}
+    #roller1{display: none}
+    #cont{display: none}
+    .topnav{width: 574px}
+    .facebook img{max-width: 30px; max-height:30px}
+    .instagram img{max-width: 30px; max-height:30px}
+    .frase1{margin-left: -10px}
+    .frase2{margin-left: -10px}
+    #nombre{width: 280px}
+    #nombrecalle{width:  360px}
+    #formulariocontacto{width: 360px}
+    #correo{width:  360px}
+    #texto{width:  360px}
+    #textC{width: 330px}
+    #textN{width: 330px}
+    #pluma {display: none}
+    .pelota {display: none}
+    #seccion >h2  {
+        font-size: 20px; margin-left: -8px; float: right; text-align: center;position: relative
+    }
+    #seccion img{width: 145px; height: 120px}
+    section >h3{font-size:  30px}
+    section > h4{font-size: 20px}
+    p {
+        font-size: 15px;color: black;
+    } 
+    .area{width: 400px}
+    .nombrec{width: 400px }
+    body>footer{width: 570px; max-height: 600px}
+    .video iframe{text-align: center;
+    width: 350px; height: 260px; border: 5px solid; color: chartreuse; margin-left: 15px
+    }
+}
+
+@media screen and (min-width:604px) and (max-width: 768px) {
+
+    header > h1{
+        font-size: 35px;
+    }
+    header {width: 380px; height: 90px; float: left}
+    .loquesea{width: 85px; padding-right: 40px; padding-left:10}
+    #textC{width: 480px}
+    #roller{display: none}
+    #roller1{display: none}
+    #cont{display: none}
+    #clockdate{margin-left: -10px}
+    #menu{display: none}
+    #banner{float: left; width: 155px; height: 115px;}
+    #banner2{float: left;width: 155px; height: 115px;}
+    .topnav{width: 735px;position: relative; float: left}
+    #clock{
+        background-color:#333;
+        font-family: consolas;
+        font-size:15px;
+        text-shadow:0px 0px 1px #fff;
+        color:#fff; margin-left: -5px;
+    }
+    #clock span {
+        color:#888;
+        text-shadow:0px 0px 1px #333;
+        font-size:15px;
+        position:relative;
+        top:15px;
+        left:5px;
+    }
+    #date {
+        letter-spacing:10px;
+        font-size:7px;
+        font-family:consolas,sans-serif;
+        color:#fff;
+        margin-top:15px;
+        margin-left: 5px;
+    }
+    .loquesea .foto1 img{ width: 100px; height: 50px; margin-right: -40px; float: right; margin-top: 35px;}
+    .loquesea ul{ width: 50px; margin-right: -40px; margin-top: 25px; margin: -30px}
+    .loquesea{width: 100px}
+    aside li a {
+        color: #666;
+        font-size: 12px;
+        font-style: bold;
+        background-color: #7EE8D4;
+        border: 3px solid red;
+        border-radius: 25px;
+        text-decoration: none;
+        float: left
+    }
+    body{max-width:768px;overflow:visible}
+    section{width: 538px;}
+    
+    section ul li{margin-left: -80px; padding: -20px}
+    section li a{margin-left: -35px; font-size: 10px;
+        font-style: bold; padding-left: 5px; }
+    section li{display:inline; margin: -25px;}
+    nav li{
+        display: inline;
+        text-align: center;
+    }
+    
+    img{max-width: 200px; max-height:150px}
+    .facebook img{max-width: 30px; max-height:30px}
+    .instagram img{max-width: 30px; max-height:30px}
+    .carrusel{ width: 725px; max-height: 90px}
+    section > h2 {
+        font-size: 30px; position:relative; float: left; margin-bottom: 20px; margin-left: -8px
+    }
+    section >h3{font-size:  35px}
+    section > h4{font-size: 20px}
+    p {
+        font-size: 15px;color: black;
+    } 
+    .area{width: 400px}
+    .nombrec{width: 400px }
+    body>footer{width: 730px; max-height: 860px}
+    .video iframe{text-align: center;
+        width: 500px; height: 400px; border: 5px solid; color: chartreuse; margin-top: 75px; margin-left: 15px
+    } 
+}
